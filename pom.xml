@@ -12,7 +12,7 @@
     <url>https://github.com/loong024/evtreme-spring-boot.git</url>
 
     <modules>
-        <module>evtreme-pom</module>
+        <module>evtreme-bom</module>
         <module>evtreme-parent</module>
         <module>evtreme-dependencies</module>
         <module>evtreme-starters</module>

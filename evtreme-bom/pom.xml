@@ -10,7 +10,7 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>evtreme-pom</artifactId>
+    <artifactId>evtreme-bom</artifactId>
     <packaging>pom</packaging>
     <name>Evtreme Spring Boot - Bom</name>
 
