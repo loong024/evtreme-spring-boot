@@ -6,18 +6,18 @@
 
     <parent>
         <groupId>io.github.loong024</groupId>
-        <artifactId>evtreme-parent</artifactId>
+        <artifactId>evtreme-starters</artifactId>
         <version>0.0.1</version>
-        <relativePath>../evtreme-parent</relativePath>
     </parent>
 
-    <artifactId>evtreme-starters</artifactId>
-    <packaging>pom</packaging>
-    <name>Evtreme Spring Boot - Starters</name>
+    <artifactId>evtreme-web-spring-boot-starter</artifactId>
+    <name>Evtreme Spring Boot - Starters - Web</name>
 
-    <modules>
-        <module>evtreme-core-spring-boot</module>
-        <module>evtreme-web-spring-boot-starter</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
